@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "text"; ObjectID = "AQ8-AD-dHb"; */
+"AQ8-AD-dHb.text" = "text";
+
+/* Class = "UILabel"; text = "Image:"; ObjectID = "O8K-TD-2G8"; */
+"O8K-TD-2G8.text" = "Изображение:";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "Rr9-W5-aHj"; */
+"Rr9-W5-aHj.text" = "date";
+
+/* Class = "UILabel"; text = "Date:"; ObjectID = "fL7-x8-mUA"; */
+"fL7-x8-mUA.text" = "Дата:";
+
+/* Class = "UILabel"; text = "Number:"; ObjectID = "hw4-lj-ril"; */
+"hw4-lj-ril.text" = "Число:";
+
+/* Class = "UILabel"; text = "Text:"; ObjectID = "iKI-eF-xxs"; */
+"iKI-eF-xxs.text" = "Текст:";
+
+/* Class = "UILabel"; text = "Currency:"; ObjectID = "pLd-MI-tDr"; */
+"pLd-MI-tDr.text" = "Валюта:";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "q2h-ii-106"; */
+"q2h-ii-106.text" = "number";
+
+/* Class = "UILabel"; text = "currency"; ObjectID = "tUi-o3-15W"; */
+"tUi-o3-15W.text" = "currency";

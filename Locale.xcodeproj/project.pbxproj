@@ -12,6 +12,7 @@
 		6D221CC91EDE0D3F000F3A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D221CC71EDE0D3F000F3A6B /* Main.storyboard */; };
 		6D221CCB1EDE0D3F000F3A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D221CCA1EDE0D3F000F3A6B /* Assets.xcassets */; };
 		6D221CCE1EDE0D3F000F3A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D221CCC1EDE0D3F000F3A6B /* LaunchScreen.storyboard */; };
+		6D2648DE1EE685D5004D65D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D2648E01EE685D5004D65D8 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,10 @@
 		6D221CCA1EDE0D3F000F3A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D221CCD1EDE0D3F000F3A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D221CCF1EDE0D3F000F3A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2648DB1EE67E42004D65D8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		6D2648DF1EE685D5004D65D8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D2648E11EE685D6004D65D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D2648E31EE68C5A004D65D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 				6D221CCA1EDE0D3F000F3A6B /* Assets.xcassets */,
 				6D221CCC1EDE0D3F000F3A6B /* LaunchScreen.storyboard */,
 				6D221CCF1EDE0D3F000F3A6B /* Info.plist */,
+				6D2648E01EE685D5004D65D8 /* Localizable.strings */,
 			);
 			path = Locale;
 			sourceTree = "<group>";
@@ -108,6 +114,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6D221CB71EDE0D3F000F3A6B;
 			productRefGroup = 6D221CC11EDE0D3F000F3A6B /* Products */;
@@ -125,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D221CCE1EDE0D3F000F3A6B /* LaunchScreen.storyboard in Resources */,
+				6D2648DE1EE685D5004D65D8 /* Localizable.strings in Resources */,
 				6D221CCB1EDE0D3F000F3A6B /* Assets.xcassets in Resources */,
 				6D221CC91EDE0D3F000F3A6B /* Main.storyboard in Resources */,
 			);
@@ -149,6 +157,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D221CC81EDE0D3F000F3A6B /* Base */,
+				6D2648DB1EE67E42004D65D8 /* ru */,
+				6D2648E31EE68C5A004D65D8 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -161,6 +171,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		6D2648E01EE685D5004D65D8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2648DF1EE685D5004D65D8 /* ru */,
+				6D2648E11EE685D6004D65D8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -168,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -218,6 +238,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -302,6 +323,7 @@
 				6D221CD41EDE0D3F000F3A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

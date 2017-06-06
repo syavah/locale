@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Locale
+
+  Created by Yaroslav Sarnitskiy on 06.06.17.
+  Copyright © 2017 GS Develop Inc. All rights reserved.
+*/
+
+    GOOD_MORNING="Доброе Утро";
+    IMG="hello";
